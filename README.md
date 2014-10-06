@@ -76,7 +76,7 @@ You can create, delete, and list queues:
 ("https://queue.amazonaws.com/499312652346/foo")
 #> (sqs/delete-queue client (first *1))
 nil
-#> (list-queues client)
+#> (sqs/list-queues client)
 nil
 ```
 
